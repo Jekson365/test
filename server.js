@@ -6,7 +6,7 @@ const app = express()
 
 app.use(json())
 app.get("/", (req, res) => {
-    res.send({ name: "givi", surname: "gocha" })
+    res.send({ name: "givi", surname: "gocha" ,age:25})
 })
 
 
